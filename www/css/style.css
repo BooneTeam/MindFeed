@@ -1,0 +1,78 @@
+/* Empty. Add your own CSS if you like */
+.square-info{
+  background:#69C897;
+  border:#D3DBDE thin solid;
+}
+
+.navbar.ui.menu{
+  margin-bottom:10px !important;
+}
+
+.navbar.ui.menu .item:before{
+  display:none;
+}
+
+#main-search{
+  width:70%;
+  margin:auto;
+}
+
+.infographic-list-item{
+  box-shadow: 0px 1px 4px 1px black;
+}
+
+.infographic-large{
+  box-shadow: 0px 1px 4px 1px black;
+}
+
+
+#category-list{
+  background:lightgrey;
+}
+
+.custom-green{
+  color:black !important;
+  background-color:#69C897 !important;
+  border-color:#D3DBDE !important;
+}
+
+.tab-nav.tabs{
+  background-color:#5C67AF !important;
+}
+.popover .tab-nav.tabs{
+  padding:4%;
+}
+
+.popover .tab-nav{
+  background-color:lightgrey !important;
+  border-radius:15px;
+}
+
+.offset-tab{
+  margin-top:-25px;
+}
+
+.icon8.share:after{
+    content: url('../img/icons/share-48.png');
+  }
+
+.icon8.plane:after{
+  content: url('../img/icons/paper-plane-48.png');
+}
+
+.icon8.search:after{
+  content: url('../img/icons/search-48.png');
+}
+
+
+ion-tabs.tabs-color-active-positive .tab-item.white-icon {
+  color:white;
+}
+
+a{
+  text-decoration:none;
+}
+
+.popover{
+  background-color:transparent;
+}

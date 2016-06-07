@@ -1,0 +1,8 @@
+<ion-view view-title="">
+  <ion-content class="has-subheader" ng-controller="DashCtrl as dash">
+    <a href="#/tab/categories/{{tile}}" style="float:left" ng-repeat="tile in dash.tiles track by $index" class="square-info col col-50"><img
+      style="margin:auto;display:block;width: 25%; height: auto"
+      src="../img/big-icons/{{tile}}.png" alt="{{tile}}">
+      <p style="color:white;font-weight: bold;text-align:center">{{tile | uppercase}}</p></a>
+  </ion-content>
+</ion-view>
