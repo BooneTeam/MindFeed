@@ -9,14 +9,14 @@
     <div ng-controller="TileCtrl as tileCtrl">
         <img class="infographic-large"
              style="margin:auto;margin-top:10px;display:block;width: 85%; height: auto"
-             src="../img/infographics/{{tileCtrl.tile}}" alt="{{tileCtrl.tile}}">
+             src="img/infographics/{{tileCtrl.tile}}" alt="{{tileCtrl.tile}}">
         <p style="color:white;font-weight: bold;text-align:center">{{tileCtrl.tile | uppercase}}</p>
     </div>
     <div ng-controller="CategoryCtrl as cat">
       <a href="#/tab/tiles/{{cat.category}}/{{$index}}" style="display:inline-block;margin-top:10px;vertical-align: top"  ng-repeat="tile in cat.tiles track by $index" class="col col-50">
         <img class="infographic-list-item"
              style="margin-left:auto;display:block;width: 100%; height: auto"
-             src="../img/infographics/{{tile}}" alt="{{tile}}">
+             src="img/infographics/{{tile}}" alt="{{tile}}">
         <p style="color:white;font-weight: bold;text-align:center">{{tile | uppercase}}</p></a>
     </div>
   </ion-content>
